@@ -44,6 +44,7 @@ func main() {
 	switch {
 	case x < 42:
 		result = "Less than zero"
+		//fallthrough
 	case x == 0:
 		result = "Equal to zero"
 	default:
